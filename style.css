@@ -1,0 +1,115 @@
+.item-1{
+   
+    display: inline-block;
+   align-content:center;
+   border-radius: 150px;
+   
+}
+.item{
+    display: inline-block;
+    text-align: center;
+}
+nav{
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+a {
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      color: black;
+      
+    }
+.item a{
+    color: rgb(255, 255, 255);
+}
+.item-1 a{
+    color: white;
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 10px;
+    justify-content:space-around;
+    display: flex;border-radius: 120px;
+    flex-wrap: wrap;
+    width: 700px;
+  
+}
+
+.container{
+    background-color: rgb(208, 204, 199);
+    justify-content: space-between;
+    width: 100%;
+}
+.nav-left{
+    font-weight: bold;
+    width: 500px;
+}
+.nav-right img {
+  width: 20px;
+  cursor: pointer;
+}
+
+
+img{
+   display: inline-block;
+   
+}
+
+.center-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size:xx-large;
+  padding:  10px;
+  border-radius: 10px;
+  
+}
+a:hover {
+    color: rgb(11, 136, 150);
+    text-decoration: underline;
+}
+a:active {
+    color: red;
+}
+.container1{
+    position: relative;
+    width: 100%;
+    height: auto;
+   
+}
+.container1 img{
+    width: 100%;
+    display: block;
+    height: auto;
+    padding: 10px;
+
+}
+section{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.vijju{
+    justify-content: space-between;
+   align-items: center;
+    display: flex;
+    border-radius: 20px;
+    background-color: cornflowerblue;
+}
+.vijju img{
+    width: 50px;
+    height: auto;
+    cursor: pointer;
+    background-color:wheat;
+}
+
+
+
+
